@@ -26,7 +26,8 @@
     "node-excel-export": "^1.4.4",
     "npm": "^6.4.1",
     "pillarjs": "^1.0.0-beta2",
-    "remote": "^0.2.6"
+    "remote": "^0.2.6",
+    "send": "^0.16.2"
   },
   "devDependencies": {
     "electron": "^2.0.8"

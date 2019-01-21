@@ -1,0 +1,137 @@
+Pest 
+
+Europa zwischen 1347 und 1352
+eine der größten Katastrophen der Menschheitsgeschichte
+meist innerhalb weniger Stunden hingerafft
+Angehörige, bei denen nur annähernd erste Krankheitssymptome auftraten, wurden ausgestoßen. 
+Man starb alleine inmitten eines gewaltigen Massensterbens. Moralgesetze und Verantwortungsgefühl wurden aufgrund der gewaltigen Todesangst außer Kraft gesetzt. 
+Panik und Mitleidlosigkeit gingen einher mit der Abwendung von den Mitmenschen und der Verrohung der Sitten. 
+Doch auch Flucht in überzogene Gläubigkeit und Selbstgeißelung waren keine Seltenheit
+
+
+Pest trat nur in wärmeren Zeiten auf 
+unmittelbar verbunden ist Entwicklungsdauer der Flöhe (Rattenflöhe, Menschenflöhe)
+
+Beulenpest: 
+wird von einem tierischen Vektor übertragen (meist Floh)
+Übertragungsweise ist umständlich und langwierig
+gilt nur im geringen Maße infektiös und führt in 50 bis 90% zum tödlichen Ende
+
+Primäre Lungenpest: 
+greift erheblich rascher um sich und kann durch Tröpfcheninfektion übertragen werden.
+kommt selten vor, aber immer zum Tode
+
+
+Hintergrund:
+In den Jahren nach 1315 kam es in weiten Teilen Europas zu einer langanhaltenden Hungersnot. 
+Das Klima veränderte sich. Die Bevölkerung ging zurück und es brachen regional begrenzte Seuchen aus, 
+die einen sprunghaften Anstieg der Morbidität verschiedener Städte hervorrief.
+
+
+Ausbreitung Europa
+
+Ausbruch: Sizilien (1346), Zypern (1347), Griechenland, Sardinien und Korsika
+-> Über Italien, von südlichen Küsten her über Spanien und Frankreich
+-> Gleichzeitig England (von Frankreich her) und Dalmatien befallen
+-> von Dalmatien und Rhein aus verbreitet sie sich über Deutschland
+-> von England aus Norwegen, Schweden, Dänemark und Schleswig-Holstein ergriffen
+-> zur selben Zeit in östliche Richtung Ungarn, Böhmen, Polen und zuletzt auf gleiche Weise erst mittlere, dann nördliche und südliche Russland
+
+1346: Sizilien
+1347: Zypern, Griechenland, Inseln des Mittelmeeres, Teil Italiens und südfranzösische Küste
+1348: Mittelitalien, Frankreich, Spanien, England, Norwegen, Schleswig-Holstein, Jütland, Dalmatien
+1349: ganz Deutschland
+1350/51: Polen und Russland
+
+Dannach von Osten und Süden nach Westen und Norden Richtung
+Zugleich teils von befallenen Gegenden des südlichen Europas aus, weniger stark, nach Norden verbreitet, 
+teils in nordöstlicher Richtung von England aus zu skandinavischen Reichen, von Deutschland aus nach Polen und Russland vordrang
+
+Zeitpunkte- und Orte der Pestfälle
+
+1346
+
+Sizilien. Einzelne Punkte von Italien.
+
+1347
+
+Frühling: Konstantinopel
+
+Sommer: Zypern. Griechenland, Malta, Sardinien, Korsika. Einzelne Städte Italiens.
+
+Anfang November
+Marseille.
+
+1348
+
+Anfang des Jahres: Spanien (Almeria), Südfrankreich (Avignon).
+
+Anfang der Fastenzeit: Narbonne.
+
+März: Modena
+
+Frühling: Florenz. Languedoc. Gascogne. Franche-Comté.
+
+Mai: Valencia (Spanien).
+
+Juni: Piacenza. Padua.
+
+Mitte Juni: Valencia (Höhe der Epidemie). Barcelona. Perugia.
+
+Mitte des Sommers: Paris. Rom.
+
+Anfang August: Südengland. Schleswig-Holstein.
+
+September: Saragossa (Höhe der Epidemie).
+
+Anfang November: London. Norwegen (Bergen).
+
+Dezember: Dalmatien. Jütland.
+
+1349
+
+Januar: Kärnthen (Villach).
+
+Ende Januar: Polen.
+
+Frühling: Wien. Frankfurt am Main.
+
+Ende Mai: Ende der Epidemie in England.
+
+August: Lübeck. Schleswig (Stadt). Danzig. Thorn. Elbing.
+
+1350
+
+Russland
+
+
+Ursprung und Verbreitung
+
+Im Jahre 1347 belagerten die Tartaren die Handels- und Hafenstadt Caffa. Als bei ihnen die Pest im Lager ausbrach, 
+katapultierten sie die Leichen über die Mauern in die Stadt. 
+Durch diese frühe Form der "biologischen Kriegsführung" breitete sich in Caffa der Schwarze Tod aus 
+und die flüchtenden Genuesen verschleppten diesen nach Italien und somit Europa. 
+Vor allem über die Seewege verbreitete sich die Pest. Frankreich, Spanien, England, die Niederlande, 
+das Reich und die südskandinavischen Länder wurden nacheinander von ihr befallen bevor sie 1353 ihre letzten Opfer in Russland forderte. 
+Präsent blieb diese Pandemie bis zum 19. Jahrhunderts (selbst im 20. Jahrhundert gab es noch Einzelfälle) und trat teils als Beulenpest und teils als Lungenpest auf
+
+
+Demographische Folgen
+
+Die Auswirkungen der Pest waren verheerend. Nach der �lteren Forschung sind rund 30% der Gesamtbevölkerung Europas zwischen 1348 und 1353 gestorben. 
+Dabei ist zu bedenken, dass es erhebliche Unterschiede von Stadt zu Stadt und von Region zu Region gab. Manche Städte hatten Sterberaten von 75%. 
+Die Historiker kämpfen hier aber mit großen Schwankungen von bis zu 500% im Einzelfall. Besonders betroffen waren Berufsgruppen, 
+die häufig mit Kranken und Toten in Kontakt kamen oder Gemeinschaften, die auf engem Raum in schlechten hygienischen Verhältnissen lebten. 
+Vor allem waren bei den Folgeepidemien wie 1361/1362 ältere Menschen gefährdet und junge, die noch keinen Kontakt mit der Seuche gehabt hatten.
+
+
+Überlegungen zur Implementierung:
+
+Die o.g. Städte auf einer Eurpa Karte repräsentieren und graphische die Ausbreitung in dem Ablauf zeigen -> Eventuell keine Karte, sondern Blockrepräsentation
+Geschwindigkeit einstellbar machen
+Bevölkerungszahlen mitlaufen lassen:
+     Bevolkerunmg pro Stadt am Anfang -> Bevolkerung nach der Pest -> Über Zeit X
+Später eventuell Regionen im Detail
+Rigional Beschränkt?
+Nur Westeuropa?; Ohne Russland, Polen etc.
+Portugal bis Deutschland + UK + Skandinavien + Italien (Sizilien + Korsika)

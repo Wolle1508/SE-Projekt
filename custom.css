@@ -194,3 +194,15 @@ fieldset[disabled] .btn-edit.active {
      /* Vertically center the text there */
      background-color: #ffffff;
 }
+
+td {
+     width: 100px;
+     height: 18px;
+}
+.water {
+     background-color: lightblue;
+}
+
+.land {
+     background-color: green;
+}

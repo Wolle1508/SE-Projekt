@@ -1,0 +1,94 @@
+{
+     "1": {
+          "location": "Sizilien",
+          "field": "50x10"
+     },
+     "2": {
+          "location": "Sardinien",
+          "field": "41x9"
+     },
+     "3": {
+          "location": "Korsika",
+          "field": "35x9"
+     },
+     "4": {
+          "location": "Marseille",
+          "field": "25x9"
+     },
+     "5": {
+          "location": "Almeria",
+          "field": "36x6"
+     },
+     "6": {
+          "location": "Avignon",
+          "field": "26x9"
+     },
+     "7": {
+          "location": "Narbonne",
+          "field": "24x7"
+     },
+     "8": {
+          "location": "Modena",
+          "field": "32x14"
+     },
+     "9": {
+          "location": "Florenz",
+          "field": "34x14"
+     },
+     "10": {
+          "location": "Languedoc",
+          "field": "25x8"
+     },
+     "11": {
+          "location": "Gascogne",
+          "field": "23x7"
+     },
+     "12": {
+          "location": "Franche-Comté",
+          "field": "25x11"
+     },
+     "13": {
+          "location": "Valencia",
+          "field": "31x6"
+     },
+     "14": {
+          "location": "Piacenza",
+          "field": "32x13"
+     },
+     "15": {
+          "location": "Padua",
+          "field": "31x16"
+     },
+     "16": {
+          "location": "Barcelona",
+          "field": "26x6"
+     },
+     "17": {
+          "location": "Perugia",
+          "field": "39x12"
+     },
+     "18": {
+          "location": "Paris",
+          "field": "16x9"
+     },
+     "19": {
+          "location": "Rom",
+          "field": "39x12"
+     },
+     "20": {
+          "location": "Südengland",
+          "field": "7x9"
+     },
+     "21": {
+          "location": "Schleswig-Holstein",
+          "field": "12x15"
+     },
+     "22": {
+          "location": "Saragossa",
+          "field": "25x9"
+     },
+     "23": {
+          "location": "London",
+          "field": "4x9"
+     }
+}

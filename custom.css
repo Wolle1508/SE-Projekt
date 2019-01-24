@@ -197,7 +197,7 @@ fieldset[disabled] .btn-edit.active {
 
 td {
      width: 100px;
-     height: 18px;
+     height: 17px;
 }
 .water {
      background-color: lightblue;
@@ -205,4 +205,8 @@ td {
 
 .land {
      background-color: green;
+}
+
+.land-infected {
+     background-color: red;
 }

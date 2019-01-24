@@ -51,54 +51,80 @@ Zeitpunkte- und Orte der Pestfälle
 
 1346
 
-Sizilien. Einzelne Punkte von Italien.
+Sizilien. Einzelne Punkte von Italien. -> Oktober -> 1 -> 50x10
 
 1347
 
 Frühling: Konstantinopel
 
-Sommer: Zypern. Griechenland, Malta, Sardinien, Korsika. Einzelne Städte Italiens.
+Sommer: 
+     Zypern.
+     Griechenland, 
+     Malta,
+     Sardinien, -> 2 -> 41x9
+     Korsika. -> 3 -> 35x9
+     Einzelne Städte Italiens.
 
 Anfang November
-Marseille.
+Marseille. -> 4 -> 25x9
 
 1348
 
-Anfang des Jahres: Spanien (Almeria), Südfrankreich (Avignon).
+Anfang des Jahres: 
+     Spanien (Almeria), -> 5 -> 36x6
+     Südfrankreich (Avignon). -> 6 -> 26x9
 
-Anfang der Fastenzeit: Narbonne.
+Anfang der Fastenzeit: Narbonne. 7 -> 24x7
 
-März: Modena
+März: Modena -> 8 -> 32x14
 
-Frühling: Florenz. Languedoc. Gascogne. Franche-Comté.
+Frühling: 
+     Florenz. -> 9 -> 34x14
+     Languedoc. -> 10 ->  25x8
+     Gascogne. -> 11 .> 23x7
+     Franche-Comté. -> 12 25x11
 
-Mai: Valencia (Spanien).
+Mai: Valencia (Spanien). -> 13 -> 31x6
 
-Juni: Piacenza. Padua.
+Juni: 
+     Piacenza. ->  14 -> 32x13
+     Padua. -> 15 -> 31x16
 
-Mitte Juni: Valencia (Höhe der Epidemie). Barcelona. Perugia.
+Mitte Juni: Valencia (Höhe der Epidemie). 
+     Barcelona. ->  16 -> 26x6
+     Perugia.  -> 17 -> 39x14
 
-Mitte des Sommers: Paris. Rom.
+Mitte des Sommers: 
+     Paris. ->  18 -> 16x9
+     Rom. -> 19 -> 39x12
 
-Anfang August: Südengland. Schleswig-Holstein.
+Anfang August: 
+     Südengland. -> 20 ->  7x9
+     Schleswig-Holstein. -> 21 -> 12x15
 
-September: Saragossa (Höhe der Epidemie).
+September: Saragossa (Höhe der Epidemie). -> 22 -> 25x9
 
-Anfang November: London. Norwegen (Bergen).
+Anfang November: 
+     London. -> 23 -> 4x9
+     Norwegen (Bergen).
 
 Dezember: Dalmatien. Jütland.
 
 1349
 
-Januar: Kärnthen (Villach).
+Januar: Kärnthen (Villach). -> 24 -> 29x13
 
 Ende Januar: Polen.
 
-Frühling: Wien. Frankfurt am Main.
+Frühling: 
+     Wien. -> 25 -> 27x14
+     Frankfurt am Main. -> 26 -> 21x14
 
 Ende Mai: Ende der Epidemie in England.
 
-August: Lübeck. Schleswig (Stadt). Danzig. Thorn. Elbing.
+August:
+     Lübeck. -> 27 -> 12x16
+Schleswig (Stadt). Danzig. Thorn. Elbing.
 
 1350
 

@@ -1,7 +1,6 @@
-const $ = require("jquery")
 var daten;
-var index = 1;
 var pause = false;
+var index = 1;
 
 window.onload = function () {
      fetch('daten.json')
@@ -9,28 +8,41 @@ window.onload = function () {
                return response.json();
           })
           .then(function (myJson) {
-               daten = myJson
+               daten = myJson;
           });
      document.getElementById("start").addEventListener("click", function () {
           ablauf();
-     })
+     });
+     document.getElementById("pause").addEventListener("click", function () {
+          console.log("pause");
+          pause = true;
+     });
+     document.getElementById("clear").addEventListener("click", function () {
+          clearMap();
+     });
 }
 
-
-//einbauen : https://scottiestech.info/2014/07/01/javascript-fun-looping-with-a-delay/
 function ablauf() {
-     while (index != Object.keys(daten).length + 1 && !pause) {
-          console.log(daten[index.toString()]);
-          var field = daten[index.toString()].field;
-          var cell = document.getElementById(field);
-          cell.style.backgroundColor = "Red";
-          sleep(2000);
-          index++;
-     }
-     index = 1
+     pause = false;
+     (function theLoop(i) {
+          setTimeout(function () {
+               console.log(daten[i]);
+               document.getElementById(daten[i].field).className = "land-infected";
+               if (index != Object.keys(daten).length && !pause) {
+                    index += 1;
+                    theLoop(index); 
+               }
+          }, 500);
+     })(index);
 }
 
-function sleep(delay) {
-     var start = new Date().getTime();
-     while (new Date().getTime() < start + delay);
+function clearMap(){
+     var cells = document.getElementsByClassName("land-infected");
+     for (const cell in cells) {
+          if (cells.hasOwnProperty(cell)) {
+               cells[cell].className = "land";
+               
+          }
+     }
+     index = 1;
 }

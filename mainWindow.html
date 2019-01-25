@@ -19,6 +19,7 @@
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
           crossorigin="anonymous"></script>
      <link rel="stylesheet" href="custom.css">
+     <link rel="stylesheet" href="range.css">
      <script src="ablauf.js"></script>
      <!-- Insert this line after script imports -->
      <script>
@@ -2015,11 +2016,20 @@
                <textarea id="info"></textarea>
           </div>
      </div>
-     <footer>
-          <button class="btn btn-default" id="start">Start</button>
-          <button class="btn btn-primary" id="pause">Pause</button>
-          <button class="btn btn-warning" id="clear">Clear</button>
-          <input type="range" value="5" min="1" max="10" step="1" id="speed"></input>
+     <footer style="padding-top: 10px;">
+          <div class="row">
+               <div class="col-xl-3">
+                    <button class="btn btn-success" id="start" value="start">Start</button>
+               </div>
+               <div class="col-xl-3">
+                    <button class="btn btn-danger" id="clear">Clear</button>
+               </div>
+               <!-- Richtige Speed Einstellung TBD -->
+               <div class="col-xl-3">
+                    <input type="range" value="1" min="1" max="10" step="1" id="speed" name="Geschwindigkeit" class="form-control-range"></input>
+               </div>
+               <div class="col-xl-3"></div>
+          </div>
      </footer>
 </body>
 

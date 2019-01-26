@@ -41,10 +41,12 @@ function ablauf() {
      var textfield = document.getElementById("info");
      (function theLoop(i) {
           setTimeout(function () {
-               console.log(daten[i]);
+               // console.log(daten[i]);
                document.getElementById(daten[i].field).className = "land-infected";
-               textfield.append(daten[i].location);
-               textfield.append("\n");
+               textfield.append(daten[i].location + "\n");
+               textfield.append(daten[i].timestamp+ "\n")
+               textfield.scrollTop = textfield.scrollHeight;
+               // textfield.append("\n");
                if (index != Object.keys(daten).length && !pause) {
                     index += 1;
                     theLoop(index);

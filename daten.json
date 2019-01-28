@@ -1,140 +1,158 @@
 {
-     "1": {
-          "location": "Sizilien",
-          "field": "50x10",
-          "timestamp" : "Oktober 1346",
-          "description" : "Ankunft der Krankheit"
-     },
-     "2": {
-          "location": "Sardinien",
-          "field": "41x9",
-          "timestamp" : "Sommer 1347",
-          "description" : "TODO"
-     },
-     "3": {
-          "location": "Korsika",
-          "field": "35x9",
-          "timestamp" : "Sommer 1347",
-          "description" : "TODO"
-     },
-     "4": {
-          "location": "Marseille",
-          "field": "25x9",
-          "timestamp" : "November 1347",
-          "description" : "TODO"
-     },
-     "5": {
-          "location": "Almeria",
-          "field": "36x6",
-          "timestamp" : "Januar 1348",
-          "description" : "TODO"
-     },
-     "6": {
-          "location": "Avignon",
-          "field": "25x7",
-          "timestamp" : "Januar 1348",
-          "description" : "TODO"
-     },
-     "7": {
-          "location": "Narbonne",
-          "field": "24x7",
-          "timestamp" : "März 1348",
-          "description" : "TODO"
-     },
-     "8": {
-          "location": "Modena",
-          "field": "32x14",
-          "timestamp" : "März 1348",
-          "description" : "TODO"
-     },
-     "9": {
-          "location": "Florenz",
-          "field": "34x14",
-          "timestamp" : "März 1348",
-          "description" : "TODO"
-     },
-     "10": {
-          "location": "Languedoc",
-          "field": "25x8",
-          "timestamp" : "Frühling 1348",
-          "description" : "TODO"
-     },
-     "11": {
-          "location": "Gascogne",
-          "field": "23x7",
-          "timestamp" : "Frühling 1348",
-          "description" : "TODO"
-     },
-     "12": {
-          "location": "Franche-Comté",
-          "field": "25x11",
-          "timestamp" : "Frühling 1348",
-          "description" : "TODO"
-     },
-     "13": {
-          "location": "Valencia",
-          "field": "31x6",
-          "timestamp" : "Mai 1348",
-          "description" : "TODO"
-     },
-     "14": {
-          "location": "Paris",
-          "field": "16x9",
-          "timestamp" : "Mai 1348",
-          "description" : "TODO"
-     },
-     "15": {
-          "location": "Piacenza",
-          "field": "32x13",
-          "timestamp" : "Juni 1348",
-          "description" : "TODO"
-     },
-     "16": {
-          "location": "Padua",
-          "field": "31x16",
-          "timestamp" : "Juni 1348",
-          "description" : "TODO"
-     },
-     "17": {
-          "location": "Barcelona",
-          "field": "26x6",
-          "timestamp" : "Juni 1348",
-          "description" : "TODO"
-     },
-     "18": {
-          "location": "Perugia",
-          "field": "39x12",
-          "timestamp" : "Juni 1348",
-          "description" : "TODO"
-     },
-     "19": {
-          "location": "Rom",
-          "field": "39x12",
-          "timestamp" : "Juli 1348",
-          "description" : "TODO"
-     },
-     "20": {
-          "location": "Südengland",
-          "field": "7x9",
-          "timestamp" : "August 1348",
-          "description" : "TODO"
-     },
-     "21": {
-          "location": "Schleswig-Holstein",
-          "field": "12x15",
-          "timestamp" : "August 1348",
-          "description" : "TODO"
-     },
-     "22": {
-          "location": "Saragossa",
-          "field": "25x9",
-          "timestamp" : "September 1348",
-          "description" : "TODO"
-     },
-     "23": {
-          "location": "London",
-          "field": "4x9",
-          "timestamp" : "November 1348",
-          "description" : "TODO"
-     }
+	"1": {
+		"location": "Sizilien",
+		"fields": [ "50x10" ],
+		"timestamp": "Oktober 1346",
+		"description": "Ankunft der Krankheit"
+	},
+	"2": {
+		"location": "Sardinien",
+		"fields": [ "41x9", "49x10", "51x10" ],
+		"timestamp": "Sommer 1347",
+		"description": "TODO"
+	},
+	"3": {
+		"location": "Korsika",
+		"fields": [ "35x9", "52x10", "42x9", "40x9" ],
+		"timestamp": "Sommer 1347",
+		"description": "TODO"
+	},
+	"4": {
+		"location": "Marseille",
+		"fields": [ "25x9", "49x11", "50x11", "51x11", "52x11", "43x9", "44x9", "34x9", "36x9" ],
+		"timestamp": "November 1347",
+		"description": "TODO"
+	},
+	"5": {
+		"location": "Almeria",
+		"fields": [ "36x6", "33x9", "37x9" ],
+		"timestamp": "Januar 1348",
+		"description": "TODO"
+	},
+	"6": {
+		"location": "Avignon",
+		"fields": [ "25x7", "37x6", "35x6" ],
+		"timestamp": "Januar 1348",
+		"description": "TODO"
+	},
+	"7": {
+		"location": "Narbonne",
+		"fields": [ "24x7", "38x6" ],
+		"timestamp": "März 1348",
+		"description": "TODO"
+	},
+	"8": {
+		"location": "Modena",
+		"fields": [ "32x14", "38x5" ],
+		"timestamp": "März 1348",
+		"description": "TODO"
+	},
+	"9": {
+		"location": "Florenz",
+		"fields": [ "34x14", "37x5" ],
+		"timestamp": "März 1348",
+		"description": "TODO"
+	},
+	"10": {
+		"location": "Languedoc",
+		"fields": [ "25x8", "38x4", "36x5", "37x4" ],
+		"timestamp": "Frühling 1348",
+		"description": "TODO"
+	},
+	"11": {
+		"location": "Gascogne",
+		"fields": [ "23x7", "34x6", "38x3", "32x6", "33x6", "29x6" ],
+		"timestamp": "Frühling 1348",
+		"description": "TODO"
+	},
+	"12": {
+		"location": "Franche-Comté",
+		"fields": [ "25x11", "35x5", "36x4", "37x3", "38x2", "30x6" ],
+		"timestamp": "Frühling 1348",
+		"description": "TODO"
+	},
+	"13": {
+		"location": "Valencia",
+		"fields": [ "31x6", "34x5", "35x4", "36x3", "37x2", "38x1" ],
+		"timestamp": "Mai 1348",
+		"description": "TODO"
+	},
+	"14": {
+		"location": "Paris",
+		"fields": [ "16x9", "33x5", "34x4", "35x3", "36x2", "37x1" ],
+		"timestamp": "Mai 1348",
+		"description": "TODO"
+	},
+	"15": {
+		"location": "Piacenza",
+		"fields": [ "32x13", "32x5", "33x4", "34x3", "35x2", "36x1" ],
+		"timestamp": "Juni 1348",
+		"description": "TODO"
+	},
+	"16": {
+		"location": "Padua",
+		"fields": [ "31x16", "31x5", "32x4", "33x3", "34x2", "35x1" ],
+		"timestamp": "Juni 1348",
+		"description": "TODO"
+	},
+	"17": {
+		"location": "Barcelona",
+		"fields": [ "26x6", "30x5", "31x4", "32x3", "33x2", "34x1" ],
+		"timestamp": "Juni 1348",
+		"description": "TODO"
+	},
+	"18": {
+		"location": "Perugia",
+		"fields": [ "39x12", "28x6", "29x5", "30x4", "31x3", "32x2", "33x1", "25x6" ],
+		"timestamp": "Juni 1348",
+		"description": "TODO"
+	},
+	"19": {
+		"location": "Rom",
+		"fields": [ "39x12", "27x6", "28x5", "29x4", "30x3", "31x2", "32x1" ],
+		"timestamp": "Juli 1348",
+		"description": "TODO"
+	},
+	"20": {
+		"location": "Südengland",
+		"fields": [ "7x9", "27x5", "28x4", "29x3", "30x2", "31x1" ],
+		"timestamp": "August 1348",
+		"description": "TODO"
+	},
+	"21": {
+		"location": "Schleswig-Holstein",
+		"fields": [ "12x15", "26x5", "27x4", "28x3", "29x2", "30x1" ],
+		"timestamp": "August 1348",
+		"description": "TODO"
+	},
+	"22": {
+		"location": "Saragossa",
+		"fields": [ "25x9", "25x5", "26x4", "27x3", "28x2", "29x1" ],
+		"timestamp": "September 1348",
+		"description": "TODO"
+	},
+	"23": {
+		"location": "London",
+		"fields": [ "4x9", "25x4", "26x3", "27x2", "28x1" ],
+		"timestamp": "November 1348",
+		"description": "TODO"
+	},
+	"24": {
+		"location": "",
+		"fields": [ "25x3", "26x2", "27x1" ],
+		"timestamp": "",
+		"description": ""
+	},
+	"25": {
+		"location": "",
+		"fields": [ "25x2", "26x1" ],
+		"timestamp": "",
+		"description": ""
+	},
+	"26": {
+		"location": "",
+		"fields": [ "25x1" ],
+		"timestamp": "",
+		"description": ""
+	}
 }

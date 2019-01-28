@@ -54,7 +54,12 @@ function ablauf() {
 	(function theLoop(i) {
 		setTimeout(function() {
 			// console.log(daten[i]);
-			document.getElementById(daten[i].field).className = 'land-infected';
+			fields = daten[i].fields;
+			console.log(index);
+
+			for (field in fields) {
+				document.getElementById(fields[field]).className = 'land-infected';
+			}
 			textfield.append(daten[i].location + '\n');
 			textfield.append(daten[i].timestamp + '\n');
 			textfield.scrollTop = textfield.scrollHeight;
@@ -85,7 +90,10 @@ function stepOn() {
 	textfield.innerHTML = '';
 	for (var i = 1; i != index; i++) {
 		var obj = daten[i];
-		document.getElementById(obj.field).className = 'land-infected';
+		var fields = obj.fields;
+		for (field in fields) {
+			document.getElementById(fields[field]).className = 'land-infected';
+		}
 		textfield.append(obj.location + '\n');
 		textfield.append(obj.timestamp + '\n');
 		textfield.scrollTop = textfield.scrollHeight;
@@ -104,7 +112,10 @@ function stepBack() {
 	var textfield = document.getElementById('info');
 	for (var i = 1; i != index; i++) {
 		var obj = daten[i];
-		document.getElementById(obj.field).className = 'land-infected';
+		var fields = obj.fields;
+		for (field in fields) {
+			document.getElementById(fields[field]).className = 'land-infected';
+		}
 		textfield.append(obj.location + '\n');
 		textfield.append(obj.timestamp + '\n');
 		textfield.scrollTop = textfield.scrollHeight;

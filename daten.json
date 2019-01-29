@@ -25,79 +25,149 @@
 	},
 	"5": {
 		"location": "Almeria",
-		"fields": [ "36x6", "33x9", "37x9" ],
+		"fields": [ "36x6", "33x9", "37x9", "52x12" ],
 		"timestamp": "Januar 1348",
 		"description": "TODO"
 	},
 	"6": {
 		"location": "Avignon",
-		"fields": [ "25x7", "37x6", "35x6" ],
+		"fields": [ "25x7", "37x6", "35x6", "51x12", "52x13" ],
 		"timestamp": "Januar 1348",
 		"description": "TODO"
 	},
 	"7": {
 		"location": "Narbonne",
-		"fields": [ "24x7", "38x6" ],
+		"fields": [ "24x7", "38x6", "50x12", "51x13", "52x14" ],
 		"timestamp": "März 1348",
 		"description": "TODO"
 	},
 	"8": {
 		"location": "Modena",
-		"fields": [ "32x14", "38x5" ],
+		"fields": [ "32x14", "38x5", "49x12", "50x13", "51x14", "52x15" ],
 		"timestamp": "März 1348",
 		"description": "TODO"
 	},
 	"9": {
 		"location": "Florenz",
-		"fields": [ "34x14", "37x5" ],
+		"fields": [ "34x14", "37x5", "48x12", "49x13", "50x14", "51x15", "52x16", "33x14" ],
 		"timestamp": "März 1348",
 		"description": "TODO"
 	},
 	"10": {
 		"location": "Languedoc",
-		"fields": [ "25x8", "38x4", "36x5", "37x4" ],
+		"fields": [ "25x8", "38x4", "36x5", "37x4", "47x12", "48x13", "49x14", "50x15", "51x16", "33x13", "33x15" ],
 		"timestamp": "Frühling 1348",
 		"description": "TODO"
 	},
 	"11": {
 		"location": "Gascogne",
-		"fields": [ "23x7", "34x6", "38x3", "32x6", "33x6", "29x6" ],
+		"fields": [
+			"23x7",
+			"34x6",
+			"38x3",
+			"32x6",
+			"33x6",
+			"29x6",
+			"46x12",
+			"47x13",
+			"48x14",
+			"49x15",
+			"50x16",
+			"33x12",
+			"33x16"
+		],
 		"timestamp": "Frühling 1348",
 		"description": "TODO"
 	},
 	"12": {
 		"location": "Franche-Comté",
-		"fields": [ "25x11", "35x5", "36x4", "37x3", "38x2", "30x6" ],
+		"fields": [
+			"25x11",
+			"35x5",
+			"36x4",
+			"37x3",
+			"38x2",
+			"30x6",
+			"45x12",
+			"46x13",
+			"47x14",
+			"48x15",
+			"49x16",
+			"34x13",
+			"34x15"
+		],
 		"timestamp": "Frühling 1348",
 		"description": "TODO"
 	},
 	"13": {
 		"location": "Valencia",
-		"fields": [ "31x6", "34x5", "35x4", "36x3", "37x2", "38x1" ],
+		"fields": [
+			"31x6",
+			"34x5",
+			"35x4",
+			"36x3",
+			"37x2",
+			"38x1",
+			"44x12",
+			"45x13",
+			"46x14",
+			"47x15",
+			"48x16",
+			"35x14",
+			"34x12",
+			"34x16"
+		],
 		"timestamp": "Mai 1348",
 		"description": "TODO"
 	},
 	"14": {
 		"location": "Paris",
-		"fields": [ "16x9", "33x5", "34x4", "35x3", "36x2", "37x1" ],
+		"fields": [ "16x9", "33x5", "34x4", "35x3", "36x2", "37x1", "43x12", "44x13", "45x14", "46x15", "47x16" ],
 		"timestamp": "Mai 1348",
 		"description": "TODO"
 	},
 	"15": {
 		"location": "Piacenza",
-		"fields": [ "32x13", "32x5", "33x4", "34x3", "35x2", "36x1" ],
+		"fields": [
+			"32x13",
+			"32x5",
+			"33x4",
+			"34x3",
+			"35x2",
+			"36x1",
+			"42x12",
+			"43x13",
+			"44x14",
+			"45x15",
+			"46x16",
+			"32x15"
+		],
 		"timestamp": "Juni 1348",
 		"description": "TODO"
 	},
 	"16": {
 		"location": "Padua",
-		"fields": [ "31x16", "31x5", "32x4", "33x3", "34x2", "35x1" ],
+		"fields": [ "31x16", "31x5", "32x4", "33x3", "34x2", "35x1", "41x12", "42x13", "43x14", "44x15", "45x16" ],
 		"timestamp": "Juni 1348",
 		"description": "TODO"
 	},
 	"17": {
 		"location": "Barcelona",
-		"fields": [ "26x6", "30x5", "31x4", "32x3", "33x2", "34x1" ],
+		"fields": [
+			"26x6",
+			"30x5",
+			"31x4",
+			"32x3",
+			"33x2",
+			"34x1",
+			"40x12",
+			"41x13",
+			"42x14",
+			"43x15",
+			"44x16",
+			"32x16",
+			"32x12"
+		],
 		"timestamp": "Juni 1348",
 		"description": "TODO"
 	},
@@ -115,31 +185,65 @@
 	},
 	"20": {
 		"location": "Südengland",
-		"fields": [ "7x9", "27x5", "28x4", "29x3", "30x2", "31x1" ],
+		"fields": [ "7x9", "27x5", "28x4", "29x3", "30x2", "31x1", "40x13", "41x14", "42x15", "43x16" ],
 		"timestamp": "August 1348",
 		"description": "TODO"
 	},
 	"21": {
 		"location": "Schleswig-Holstein",
-		"fields": [ "12x15", "26x5", "27x4", "28x3", "29x2", "30x1" ],
+		"fields": [
+			"12x15",
+			"26x5",
+			"27x4",
+			"28x3",
+			"29x2",
+			"30x1",
+			"38x12",
+			"39x13",
+			"40x14",
+			"41x15",
+			"42x16",
+			"36x14",
+			"35x13",
+			"35x12",
+			"35x15",
+			"35x16"
+		],
 		"timestamp": "August 1348",
 		"description": "TODO"
 	},
 	"22": {
 		"location": "Saragossa",
-		"fields": [ "25x9", "25x5", "26x4", "27x3", "28x2", "29x1" ],
+		"fields": [
+			"25x9",
+			"25x5",
+			"26x4",
+			"27x3",
+			"28x2",
+			"29x1",
+			"37x12",
+			"38x13",
+			"39x14",
+			"40x15",
+			"41x16",
+			"36x12",
+			"36x13",
+			"37x14",
+			"36x15",
+			"36x16"
+		],
 		"timestamp": "September 1348",
 		"description": "TODO"
 	},
 	"23": {
 		"location": "London",
-		"fields": [ "4x9", "25x4", "26x3", "27x2", "28x1" ],
+		"fields": [ "4x9", "25x4", "26x3", "27x2", "28x1", "37x13", "38x14", "39x15", "40x16" ],
 		"timestamp": "November 1348",
 		"description": "TODO"
 	},
 	"24": {
 		"location": "",
-		"fields": [ "25x3", "26x2", "27x1" ],
+		"fields": [ "25x3", "26x2", "27x1", "37x15", "38x15", "37x16", "38x16", "39x16" ],
 		"timestamp": "",
 		"description": ""
 	},

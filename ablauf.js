@@ -53,17 +53,16 @@ function ablauf() {
 	var textfield = document.getElementById('info');
 	(function theLoop(i) {
 		setTimeout(function() {
-			// console.log(daten[i]);
 			fields = daten[i].fields;
-			console.log(index);
-
 			for (field in fields) {
+				// if (field == 0) {
+				// 	document.getElementById(fields[field]).innerHTML = daten[i].location;
+				// }
 				document.getElementById(fields[field]).className = 'land-infected';
 			}
 			textfield.append(daten[i].location + '\n');
 			textfield.append(daten[i].timestamp + '\n');
 			textfield.scrollTop = textfield.scrollHeight;
-			// textfield.append("\n");
 			if (index != Object.keys(daten).length && !pause) {
 				index += 1;
 				theLoop(index);

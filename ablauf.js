@@ -1,16 +1,9 @@
-var daten;
+var daten = require('./daten.json');
 var pause = false;
 var index = 1;
 var speed = 1000;
 
 window.onload = function() {
-	fetch('daten.json')
-		.then(function(response) {
-			return response.json();
-		})
-		.then(function(myJson) {
-			daten = myJson;
-		});
 	document.getElementById('start').addEventListener('click', function() {
 		var startButton = document.getElementById('start');
 		var onButton = document.getElementById('next');

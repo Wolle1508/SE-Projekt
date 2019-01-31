@@ -3,61 +3,61 @@
 		"location": "Sizilien",
 		"fields": [ "50x10" ],
 		"timestamp": "Oktober 1346",
-		"description": "Ankunft der Krankheit"
+		"description": "Ankunft der Krankheit, Mortalitätsrate 30%"
 	},
 	"2": {
 		"location": "Sardinien",
 		"fields": [ "41x9", "49x10", "51x10" ],
 		"timestamp": "Sommer 1347",
-		"description": "TODO"
+		"description": "Mortalitätsrate 50-60%"
 	},
 	"3": {
 		"location": "Korsika",
 		"fields": [ "35x9", "52x10", "42x9", "40x9" ],
 		"timestamp": "Sommer 1347",
-		"description": "TODO"
+		"description": "Mortalitätsrate 60%"
 	},
 	"4": {
 		"location": "Marseille",
 		"fields": [ "25x9", "49x11", "50x11", "51x11", "52x11", "43x9", "44x9", "34x9", "36x9" ],
 		"timestamp": "November 1347",
-		"description": "TODO"
+		"description": "Mortalitätsrate 60%"
 	},
 	"5": {
 		"location": "Almeria",
-		"fields": [ "36x6", "33x9", "37x9", "52x12" ],
+		"fields": [ "36x6", "33x9", "37x9", "52x12", "25x8" ],
 		"timestamp": "Januar 1348",
-		"description": "TODO"
+		"description": "Mortalitätsrate 60-65%"
 	},
 	"6": {
 		"location": "Avignon",
 		"fields": [ "25x7", "37x6", "35x6", "51x12", "52x13" ],
 		"timestamp": "Januar 1348",
-		"description": "TODO"
+		"description": "Mortalitätsrate 60%"
 	},
 	"7": {
 		"location": "Narbonne",
 		"fields": [ "24x7", "38x6", "50x12", "51x13", "52x14" ],
 		"timestamp": "März 1348",
-		"description": "TODO"
+		"description": "Mortalitätsrate 60%"
 	},
 	"8": {
 		"location": "Modena",
 		"fields": [ "32x14", "38x5", "49x12", "50x13", "51x14", "52x15" ],
 		"timestamp": "März 1348",
-		"description": "TODO"
+		"description": "Mortalitätsrate 50-60%"
 	},
 	"9": {
 		"location": "Florenz",
 		"fields": [ "34x14", "37x5", "48x12", "49x13", "50x14", "51x15", "52x16", "33x14" ],
 		"timestamp": "März 1348",
-		"description": "TODO"
+		"description": "Mortalitätsrate 50-60%"
 	},
 	"10": {
 		"location": "Languedoc",
 		"fields": [ "25x8", "38x4", "36x5", "37x4", "47x12", "48x13", "49x14", "50x15", "51x16", "33x13", "33x15" ],
 		"timestamp": "Frühling 1348",
-		"description": "TODO"
+		"description": "Mortalitätsrate 60%"
 	},
 	"11": {
 		"location": "Gascogne",
@@ -74,10 +74,12 @@
 			"49x15",
 			"50x16",
 			"33x12",
-			"33x16"
+			"33x16",
+			"25x10",
+			"24x8"
 		],
 		"timestamp": "Frühling 1348",
-		"description": "TODO"
+		"description": "Mortalitätsrate 60%"
 	},
 	"12": {
 		"location": "Franche-Comté",
@@ -94,10 +96,13 @@
 			"48x15",
 			"49x16",
 			"34x13",
-			"34x15"
+			"34x15",
+			"22x7",
+			"23x8",
+			"24x9"
 		],
 		"timestamp": "Frühling 1348",
-		"description": "TODO"
+		"description": "Mortalitätsrate 60%"
 	},
 	"13": {
 		"location": "Valencia",
@@ -115,16 +120,37 @@
 			"48x16",
 			"35x14",
 			"34x12",
-			"34x16"
+			"34x16",
+			"21x7",
+			"22x8",
+			"23x9",
+			"24x10"
 		],
 		"timestamp": "Mai 1348",
-		"description": "TODO"
+		"description": "Mortalitätsrate 60-65%"
 	},
 	"14": {
 		"location": "Paris",
-		"fields": [ "16x9", "33x5", "34x4", "35x3", "36x2", "37x1", "43x12", "44x13", "45x14", "46x15", "47x16" ],
+		"fields": [
+			"16x9",
+			"33x5",
+			"34x4",
+			"35x3",
+			"36x2",
+			"37x1",
+			"43x12",
+			"44x13",
+			"45x14",
+			"46x15",
+			"47x16",
+			"20x7",
+			"21x8",
+			"22x9",
+			"23x10",
+			"24x11"
+		],
 		"timestamp": "Mai 1348",
-		"description": "TODO"
+		"description": "Mortalitätsrate 50%"
 	},
 	"15": {
 		"location": "Piacenza",
@@ -140,16 +166,38 @@
 			"44x14",
 			"45x15",
 			"46x16",
-			"32x15"
+			"32x15",
+			"19x7",
+			"20x8",
+			"21x9",
+			"22x10",
+			"23x11"
 		],
 		"timestamp": "Juni 1348",
-		"description": "TODO"
+		"description": "Mortalitätsrate 50-60%"
 	},
 	"16": {
 		"location": "Padua",
-		"fields": [ "31x16", "31x5", "32x4", "33x3", "34x2", "35x1", "41x12", "42x13", "43x14", "44x15", "45x16" ],
+		"fields": [
+			"31x16",
+			"31x5",
+			"32x4",
+			"33x3",
+			"34x2",
+			"35x1",
+			"41x12",
+			"42x13",
+			"43x14",
+			"44x15",
+			"45x16",
+			"18x7",
+			"19x8",
+			"20x9",
+			"21x10",
+			"22x11"
+		],
 		"timestamp": "Juni 1348",
-		"description": "TODO"
+		"description": "Mortalitätsrate 50-60%"
 	},
 	"17": {
 		"location": "Barcelona",
@@ -166,28 +214,99 @@
 			"43x15",
 			"44x16",
 			"32x16",
-			"32x12"
+			"32x12",
+			"17x7",
+			"18x8",
+			"19x9",
+			"20x10",
+			"31x12",
+			"21x11",
+			"31x13",
+			"31x14",
+			"31x15"
 		],
 		"timestamp": "Juni 1348",
-		"description": "TODO"
+		"description": "Mortalitätsrate 60%-65"
 	},
 	"18": {
 		"location": "Perugia",
-		"fields": [ "39x12", "28x6", "29x5", "30x4", "31x3", "32x2", "33x1", "25x6" ],
+		"fields": [
+			"39x12",
+			"28x6",
+			"29x5",
+			"30x4",
+			"31x3",
+			"32x2",
+			"33x1",
+			"25x6",
+			"16x7",
+			"17x8",
+			"18x9",
+			"19x10",
+			"20x11",
+			"30x12",
+			"30x11"
+		],
 		"timestamp": "Juni 1348",
-		"description": "TODO"
+		"description": "Mortalitätsrate 50-60%"
 	},
 	"19": {
 		"location": "Rom",
-		"fields": [ "39x12", "27x6", "28x5", "29x4", "30x3", "31x2", "32x1" ],
+		"fields": [
+			"39x12",
+			"27x6",
+			"28x5",
+			"29x4",
+			"30x3",
+			"31x2",
+			"32x1",
+			"15x7",
+			"16x8",
+			"17x9",
+			"18x10",
+			"19x11",
+			"17x10",
+			"18x11",
+			"14x7",
+			"15x8",
+			"30x10",
+			"30x13",
+			"30x14",
+			"29x11"
+		],
 		"timestamp": "Juli 1348",
-		"description": "TODO"
+		"description": "Mortalitätsrate 50-60%"
 	},
 	"20": {
 		"location": "Südengland",
-		"fields": [ "7x9", "27x5", "28x4", "29x3", "30x2", "31x1", "40x13", "41x14", "42x15", "43x16" ],
+		"fields": [
+			"7x9",
+			"27x5",
+			"28x4",
+			"29x3",
+			"30x2",
+			"31x1",
+			"40x13",
+			"41x14",
+			"42x15",
+			"43x16",
+			"13x7",
+			"14x8",
+			"15x9",
+			"16x10",
+			"17x11",
+			"29x10",
+			"28x10",
+			"29x12",
+			"29x13",
+			"29x14",
+			"29x15",
+			"29x16",
+			"29x17",
+			"29x18"
+		],
 		"timestamp": "August 1348",
-		"description": "TODO"
+		"description": "Mortalitätsrate 30-40%"
 	},
 	"21": {
 		"location": "Schleswig-Holstein",
@@ -207,10 +326,21 @@
 			"35x13",
 			"35x12",
 			"35x15",
-			"35x16"
+			"35x16",
+			"12x7",
+			"13x8",
+			"14x9",
+			"15x10",
+			"16x11",
+			"7x8",
+			"7x10",
+			"27x10",
+			"26x10",
+			"30x15",
+			"30x16"
 		],
 		"timestamp": "August 1348",
-		"description": "TODO"
+		"description": "Mortalitätsrate 10%"
 	},
 	"22": {
 		"location": "Saragossa",
@@ -230,33 +360,269 @@
 			"36x13",
 			"37x14",
 			"36x15",
-			"36x16"
+			"36x16",
+			"12x8",
+			"13x9",
+			"14x10",
+			"15x11",
+			"7x7",
+			"6x10",
+			"30x17",
+			"30x18",
+			"11x15",
+			"11x16",
+			"13x15",
+			"12x14",
+			"12x16"
 		],
 		"timestamp": "September 1348",
-		"description": "TODO"
+		"description": "Mortalitätsrate 60-65%"
 	},
 	"23": {
 		"location": "London",
-		"fields": [ "4x9", "25x4", "26x3", "27x2", "28x1", "37x13", "38x14", "39x15", "40x16" ],
+		"fields": [
+			"4x9",
+			"25x4",
+			"26x3",
+			"27x2",
+			"28x1",
+			"37x13",
+			"38x14",
+			"39x15",
+			"40x16",
+			"12x9",
+			"13x10",
+			"14x11",
+			"5x10",
+			"6x9",
+			"10x15",
+			"10x16"
+		],
 		"timestamp": "November 1348",
-		"description": "TODO"
+		"description": "Mortalitätsrate 25-50%"
 	},
 	"24": {
-		"location": "",
-		"fields": [ "25x3", "26x2", "27x1", "37x15", "38x15", "37x16", "38x16", "39x16" ],
-		"timestamp": "",
+		"location": "Jütland",
+		"fields": [
+			"5x15",
+			"5x16",
+			"25x3",
+			"26x2",
+			"27x1",
+			"37x15",
+			"38x15",
+			"37x16",
+			"38x16",
+			"39x16",
+			"12x10",
+			"13x11",
+			"4x10",
+			"5x9",
+			"6x8",
+			"25x12"
+		],
+		"timestamp": "Dezember 1348",
 		"description": ""
 	},
 	"25": {
-		"location": "",
-		"fields": [ "25x2", "26x1" ],
-		"timestamp": "",
+		"location": "Villach",
+		"fields": [ "25x2", "26x1", "12x11", "5x8", "6x7", "3x10", "6x15", "6x16", "24x12", "25x13" ],
+		"timestamp": "Januar 1349",
 		"description": ""
 	},
 	"26": {
+		"location": "Dänemark",
+		"fields": [
+			"8x15",
+			"25x1",
+			"2x10",
+			"3x9",
+			"4x8",
+			"5x7",
+			"28x11",
+			"28x12",
+			"28x13",
+			"28x14",
+			"28x15",
+			"28x16",
+			"28x17",
+			"28x18",
+			"23x12",
+			"24x13",
+			"25x14"
+		],
+		"timestamp": "Februar 1349",
+		"description": ""
+	},
+	"27": {
+		"location": "Wien",
+		"fields": [
+			"27x18",
+			"4x7",
+			"3x8",
+			"2x9",
+			"1x10",
+			"7x15",
+			"7x16",
+			"8x16",
+			"9x15",
+			"9x16",
+			"22x12",
+			"23x13",
+			"24x14",
+			"25x15"
+		],
+		"timestamp": "März 1349",
+		"description": ""
+	},
+	"28": {
+		"location": "Bern",
+		"fields": [
+			"27x12",
+			"3x7",
+			"2x8",
+			"1x9",
+			"21x12",
+			"22x13",
+			"23x14",
+			"24x15",
+			"25x16",
+			"27x17",
+			"27x14",
+			"27x15",
+			"27x16"
+		],
+		"timestamp": "April 1349",
+		"description": ""
+	},
+	"29": {
+		"location": "Frankfurt a. M.",
+		"fields": [
+			"21x13",
+			"2x7",
+			"1x8",
+			"20x12",
+			"21x13",
+			"22x14",
+			"23x15",
+			"24x16",
+			"25x17",
+			"26x17",
+			"26x18",
+			"26x16",
+			"26x15",
+			"26x11",
+			"26x12",
+			"26x13",
+			"26x14",
+			"26x15",
+			"25x12",
+			"25x13"
+		],
+		"timestamp": "Mai 1349",
+		"description": ""
+	},
+	"30": {
+		"location": "Hamburg",
+		"fields": [
+			"14x15",
+			"1x7",
+			"19x12",
+			"20x13",
+			"21x14",
+			"22x15",
+			"23x16",
+			"24x17",
+			"25x18",
+			"13x14",
+			"13x16",
+			"12x13",
+			"12x17",
+			"27x11",
+			"27x13"
+		],
+		"timestamp": "Juni 1349",
+		"description": ""
+	},
+	"31": {
 		"location": "",
-		"fields": [ "25x1" ],
-		"timestamp": "",
+		"fields": [
+			"18x12",
+			"19x13",
+			"20x14",
+			"21x15",
+			"22x16",
+			"23x17",
+			"24x18",
+			"15x15",
+			"14x16",
+			"14x14",
+			"13x13",
+			"12x12",
+			"13x17",
+			"12x18"
+		],
+		"timestamp": "Juli 1349",
+		"description": ""
+	},
+	"32": {
+		"location": "",
+		"fields": [
+			"17x12",
+			"18x13",
+			"19x14",
+			"20x15",
+			"21x16",
+			"22x17",
+			"23x18",
+			"16x15",
+			"15x14",
+			"14x13",
+			"13x12",
+			"15x16",
+			"14x17",
+			"13x18"
+		],
+		"timestamp": "Juli 1349",
+		"description": ""
+	},
+	"33": {
+		"location": "",
+		"fields": [
+			"16x12",
+			"17x13",
+			"18x14",
+			"19x15",
+			"20x16",
+			"21x17",
+			"22x18",
+			"17x15",
+			"16x14",
+			"15x13",
+			"14x12",
+			"16x16",
+			"15x17",
+			"14x18"
+		],
+		"timestamp": "Juli 1349",
+		"description": ""
+	},
+	"34": {
+		"location": "",
+		"fields": [ "15x12", "16x13", "17x14", "18x15", "19x16", "20x17", "21x18", "17x16", "16x17", "15x18" ],
+		"timestamp": "August 1349",
+		"description": ""
+	},
+	"35": {
+		"location": "",
+		"fields": [ "18x16", "19x17", "20x18", "17x17", "16x18" ],
+		"timestamp": "September 1349",
+		"description": ""
+	},
+	"36": {
+		"location": "",
+		"fields": [ "18x17", "18x18", "17x18", "19x18" ],
+		"timestamp": "Oktober 1349",
 		"description": ""
 	}
 }

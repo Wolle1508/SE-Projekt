@@ -82,7 +82,12 @@ td {
 
 #info {
 	width: 100%;
-	height: 957px;
+	height: 638px;
+}
+
+#legende {
+	width: 100%;
+	height: 319px;
 }
 
 .water {
@@ -93,6 +98,26 @@ td {
 	background-color: green;
 }
 
-.land-infected {
+.land-infected-very-high {
 	background-color: red;
+}
+
+.land-infected-high {
+	background-color: #bd770f;
+}
+
+.land-infected-middel {
+	background-color: yellow;
+}
+
+.land-infected-low {
+	background-color: lightgreen;
+}
+
+.land-infected-unknown {
+	background-color: gray;
+}
+
+.land-infected-rural {
+	background-color: rgb(255, 87, 87);
 }

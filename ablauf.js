@@ -28,8 +28,15 @@ window.onload = function() {
 	});
 	document.getElementById('clear').addEventListener('click', function() {
 		clearMap();
+		index = 1;
 	});
 	document.getElementById('speed').addEventListener('change', function() {
+		var value = document.getElementById('speed').value;
+		if (value == 1) {
+			document.getElementById('speedLabel').innerHTML = 'Geschwindigkeit: ' + value + ' Sekunde/Tick';
+		} else {
+			document.getElementById('speedLabel').innerHTML = 'Geschwindigkeit: ' + value + ' Sekunden/Tick';
+		}
 		speed = document.getElementById('speed').value * 1000;
 	});
 	document.getElementById('next').addEventListener('click', function() {
@@ -43,19 +50,9 @@ window.onload = function() {
 function ablauf() {
 	if (index != 1) index++;
 	pause = false;
-	var textfield = document.getElementById('info');
 	(function theLoop(i) {
 		setTimeout(function() {
-			fields = daten[i].fields;
-			for (field in fields) {
-				// if (field == 0) {
-				// 	document.getElementById(fields[field]).innerHTML = daten[i].location;
-				// }
-				document.getElementById(fields[field]).className = 'land-infected';
-			}
-			textfield.append(daten[i].location + '\n');
-			textfield.append(daten[i].timestamp + '\n');
-			textfield.scrollTop = textfield.scrollHeight;
+			makeStep(daten[i]);
 			if (index != Object.keys(daten).length && !pause) {
 				index += 1;
 				theLoop(index);
@@ -64,52 +61,44 @@ function ablauf() {
 	})(index);
 }
 
+function makeStep(obj) {
+	var textfield = document.getElementById('info');
+	if (obj.hasOwnProperty('primaryField')) {
+		var primaryField = obj.primaryField;
+		document.getElementById(primaryField.field).className = primaryField.class;
+		textfield.append(primaryField.location + '\n');
+	}
+	var fields = obj.fields;
+	for (field in fields) {
+		document.getElementById(fields[field]).className = 'land-infected-rural';
+	}
+	textfield.append(obj.timestamp + '\n');
+	textfield.append('\n');
+	textfield.scrollTop = textfield.scrollHeight;
+}
+
 function clearMap() {
-	var cells = document.getElementsByClassName('land-infected');
+	var cells = document.getElementsByTagName('td');
 	for (const cell in cells) {
 		if (cells.hasOwnProperty(cell)) {
-			cells[cell].className = 'land';
+			if (cells[cell].className != 'water') {
+				cells[cell].className = 'land';
+			}
 		}
 	}
 	document.getElementById('info').innerHTML = '';
-	index = 1;
 }
 
 function stepOn() {
 	index += 1;
-	// clearMap();
-	var textfield = document.getElementById('info');
-	textfield.innerHTML = '';
-	for (var i = 1; i != index; i++) {
-		var obj = daten[i];
-		var fields = obj.fields;
-		for (field in fields) {
-			document.getElementById(fields[field]).className = 'land-infected';
-		}
-		textfield.append(obj.location + '\n');
-		textfield.append(obj.timestamp + '\n');
-		textfield.scrollTop = textfield.scrollHeight;
-	}
+	makeStep(daten[index]);
 }
 
 function stepBack() {
 	index -= 1;
-	var cells = document.getElementsByClassName('land-infected');
-	for (const cell in cells) {
-		if (cells.hasOwnProperty(cell)) {
-			cells[cell].className = 'land';
-		}
-	}
+	clearMap();
 	document.getElementById('info').innerHTML = '';
-	var textfield = document.getElementById('info');
-	for (var i = 1; i != index; i++) {
-		var obj = daten[i];
-		var fields = obj.fields;
-		for (field in fields) {
-			document.getElementById(fields[field]).className = 'land-infected';
-		}
-		textfield.append(obj.location + '\n');
-		textfield.append(obj.timestamp + '\n');
-		textfield.scrollTop = textfield.scrollHeight;
+	for (var i = 1; i < index; i++) {
+		makeStep(daten[i]);
 	}
 }

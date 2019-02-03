@@ -1,68 +1,111 @@
 {
 	"1": {
-		"location": "Sizilien",
-		"fields": [ "50x10" ],
+		"primaryField": {
+			"location": "Sizilien",
+			"field": "50x10",
+			"class": "land-infected-high"
+		},
+		"fields": [],
 		"timestamp": "Oktober 1346",
 		"description": "Ankunft der Krankheit, Mortalitätsrate 30%"
 	},
 	"2": {
-		"location": "Sardinien",
-		"fields": [ "41x9", "49x10", "51x10" ],
+		"primaryField": {
+			"location": "Sardinien",
+			"field": "41x9",
+			"class": "land-infected-very-high"
+		},
+		"fields": [ "49x10", "51x10" ],
 		"timestamp": "Sommer 1347",
 		"description": "Mortalitätsrate 50-60%"
 	},
 	"3": {
-		"location": "Korsika",
-		"fields": [ "35x9", "52x10", "42x9", "40x9" ],
+		"primaryField": {
+			"location": "Korsika",
+			"field": "35x9",
+			"class": "land-infected-very-high"
+		},
+		"fields": [ "52x10", "42x9", "40x9" ],
 		"timestamp": "Sommer 1347",
 		"description": "Mortalitätsrate 60%"
 	},
 	"4": {
-		"location": "Marseille",
-		"fields": [ "25x9", "49x11", "50x11", "51x11", "52x11", "43x9", "44x9", "34x9", "36x9" ],
+		"primaryField": {
+			"location": "Marseille",
+			"field": "25x9",
+			"class": "land-infected-very-high"
+		},
+		"fields": [ "49x11", "50x11", "51x11", "52x11", "43x9", "44x9", "34x9", "36x9" ],
 		"timestamp": "November 1347",
 		"description": "Mortalitätsrate 60%"
 	},
 	"5": {
-		"location": "Almeria",
-		"fields": [ "36x6", "33x9", "37x9", "52x12", "25x8" ],
+		"primaryField": {
+			"location": "Almeria",
+			"field": "36x6",
+			"class": "land-infected-very-high"
+		},
+		"fields": [ "33x9", "37x9", "52x12", "25x8" ],
 		"timestamp": "Januar 1348",
 		"description": "Mortalitätsrate 60-65%"
 	},
 	"6": {
-		"location": "Avignon",
-		"fields": [ "25x7", "37x6", "35x6", "51x12", "52x13" ],
+		"primaryField": {
+			"location": "Avignon",
+			"field": "25x7",
+			"class": "land-infected-very-high"
+		},
+		"fields": [ "37x6", "35x6", "51x12", "52x13" ],
 		"timestamp": "Januar 1348",
 		"description": "Mortalitätsrate 60%"
 	},
 	"7": {
-		"location": "Narbonne",
-		"fields": [ "24x7", "38x6", "50x12", "51x13", "52x14" ],
+		"primaryField": {
+			"location": "Narbonne",
+			"field": "24x7",
+			"class": "land-infected-very-high"
+		},
+		"fields": [ "38x6", "50x12", "51x13", "52x14" ],
 		"timestamp": "März 1348",
 		"description": "Mortalitätsrate 60%"
 	},
 	"8": {
-		"location": "Modena",
-		"fields": [ "32x14", "38x5", "49x12", "50x13", "51x14", "52x15" ],
+		"primaryField": {
+			"location": "Modena",
+			"field": "32x14",
+			"class": "land-infected-very-high"
+		},
+		"fields": [ "38x5", "49x12", "50x13", "51x14", "52x15" ],
 		"timestamp": "März 1348",
 		"description": "Mortalitätsrate 50-60%"
 	},
 	"9": {
-		"location": "Florenz",
-		"fields": [ "34x14", "37x5", "48x12", "49x13", "50x14", "51x15", "52x16", "33x14" ],
+		"primaryField": {
+			"location": "Florenz",
+			"field": "34x14",
+			"class": "land-infected-very-high"
+		},
+		"fields": [ "37x5", "48x12", "49x13", "50x14", "51x15", "52x16", "33x14" ],
 		"timestamp": "März 1348",
 		"description": "Mortalitätsrate 50-60%"
 	},
 	"10": {
-		"location": "Languedoc",
-		"fields": [ "25x8", "38x4", "36x5", "37x4", "47x12", "48x13", "49x14", "50x15", "51x16", "33x13", "33x15" ],
+		"primaryField": {
+			"location": "Languedoc",
+			"field": "25x8",
+			"class": "land-infected-very-high"
+		},
+		"fields": [ "38x4", "36x5", "37x4", "47x12", "48x13", "49x14", "50x15", "51x16", "33x13", "33x15" ],
 		"timestamp": "Frühling 1348",
 		"description": "Mortalitätsrate 60%"
 	},
 	"11": {
-		"location": "Gascogne",
+		"primaryField": {
+			"location": "Gascogne",
+			"field": "23x7",
+			"class": "land-infected-very-high"
+		},
 		"fields": [
-			"23x7",
 			"34x6",
 			"38x3",
 			"32x6",
@@ -82,9 +125,12 @@
 		"description": "Mortalitätsrate 60%"
 	},
 	"12": {
-		"location": "Franche-Comté",
+		"primaryField": {
+			"location": "Franche-Comté",
+			"field": "25x11",
+			"class": "land-infected-very-high"
+		},
 		"fields": [
-			"25x11",
 			"35x5",
 			"36x4",
 			"37x3",
@@ -105,9 +151,12 @@
 		"description": "Mortalitätsrate 60%"
 	},
 	"13": {
-		"location": "Valencia",
+		"primaryField": {
+			"location": "Valencia",
+			"field": "31x6",
+			"class": "land-infected-very-high"
+		},
 		"fields": [
-			"31x6",
 			"34x5",
 			"35x4",
 			"36x3",
@@ -130,9 +179,12 @@
 		"description": "Mortalitätsrate 60-65%"
 	},
 	"14": {
-		"location": "Paris",
+		"primaryField": {
+			"location": "Paris",
+			"field": "16x9",
+			"class": "land-infected-very-high"
+		},
 		"fields": [
-			"16x9",
 			"33x5",
 			"34x4",
 			"35x3",
@@ -153,9 +205,12 @@
 		"description": "Mortalitätsrate 50%"
 	},
 	"15": {
-		"location": "Piacenza",
+		"primaryField": {
+			"location": "Piacenza",
+			"field": "32x13",
+			"class": "land-infected-very-high"
+		},
 		"fields": [
-			"32x13",
 			"32x5",
 			"33x4",
 			"34x3",
@@ -177,9 +232,12 @@
 		"description": "Mortalitätsrate 50-60%"
 	},
 	"16": {
-		"location": "Padua",
+		"primaryField": {
+			"location": "Padua",
+			"field": "31x16",
+			"class": "land-infected-very-high"
+		},
 		"fields": [
-			"31x16",
 			"31x5",
 			"32x4",
 			"33x3",
@@ -200,9 +258,12 @@
 		"description": "Mortalitätsrate 50-60%"
 	},
 	"17": {
-		"location": "Barcelona",
+		"primaryField": {
+			"location": "Barcelona",
+			"field": "26x6",
+			"class": "land-infected-very-high"
+		},
 		"fields": [
-			"26x6",
 			"30x5",
 			"31x4",
 			"32x3",
@@ -229,9 +290,12 @@
 		"description": "Mortalitätsrate 60%-65"
 	},
 	"18": {
-		"location": "Perugia",
+		"primaryField": {
+			"location": "Perugia",
+			"field": "39x12",
+			"class": "land-infected-very-high"
+		},
 		"fields": [
-			"39x12",
 			"28x6",
 			"29x5",
 			"30x4",
@@ -251,9 +315,12 @@
 		"description": "Mortalitätsrate 50-60%"
 	},
 	"19": {
-		"location": "Rom",
+		"primaryField": {
+			"location": "Rom",
+			"field": "39x12",
+			"class": "land-infected-very-high"
+		},
 		"fields": [
-			"39x12",
 			"27x6",
 			"28x5",
 			"29x4",
@@ -278,9 +345,12 @@
 		"description": "Mortalitätsrate 50-60%"
 	},
 	"20": {
-		"location": "Südengland",
+		"primaryField": {
+			"location": "Südengland",
+			"field": "7x9",
+			"class": "land-infected-high"
+		},
 		"fields": [
-			"7x9",
 			"27x5",
 			"28x4",
 			"29x3",
@@ -309,9 +379,12 @@
 		"description": "Mortalitätsrate 30-40%"
 	},
 	"21": {
-		"location": "Schleswig-Holstein",
+		"primaryField": {
+			"location": "Schleswig-Holstein",
+			"field": "12x15",
+			"class": "land-infected-middel"
+		},
 		"fields": [
-			"12x15",
 			"26x5",
 			"27x4",
 			"28x3",
@@ -343,9 +416,12 @@
 		"description": "Mortalitätsrate 10%"
 	},
 	"22": {
-		"location": "Saragossa",
+		"primaryField": {
+			"location": "Saragossa",
+			"field": "25x9",
+			"class": "land-infected-very-high"
+		},
 		"fields": [
-			"25x9",
 			"25x5",
 			"26x4",
 			"27x3",
@@ -379,9 +455,12 @@
 		"description": "Mortalitätsrate 60-65%"
 	},
 	"23": {
-		"location": "London",
+		"primaryField": {
+			"location": "London",
+			"field": "4x9",
+			"class": "land-infected-high"
+		},
 		"fields": [
-			"4x9",
 			"25x4",
 			"26x3",
 			"27x2",
@@ -402,9 +481,12 @@
 		"description": "Mortalitätsrate 25-50%"
 	},
 	"24": {
-		"location": "Jütland",
+		"primaryField": {
+			"location": "Jütland",
+			"field": "5x15",
+			"class": "land-infected-unknown"
+		},
 		"fields": [
-			"5x15",
 			"5x16",
 			"25x3",
 			"26x2",
@@ -425,15 +507,22 @@
 		"description": ""
 	},
 	"25": {
-		"location": "Villach",
-		"fields": [ "25x2", "26x1", "12x11", "5x8", "6x7", "3x10", "6x15", "6x16", "24x12", "25x13" ],
+		"primaryField": {
+			"location": "Villach",
+			"field": "29x1",
+			"class": "land-infected-unknown"
+		},
+		"fields": [ "26x1", "12x11", "5x8", "6x7", "3x10", "6x15", "6x16", "24x12", "25x13" ],
 		"timestamp": "Januar 1349",
 		"description": ""
 	},
 	"26": {
-		"location": "Dänemark",
+		"primaryField": {
+			"location": "Kopenhagen",
+			"field": "8x15",
+			"class": "land-infected-unknown"
+		},
 		"fields": [
-			"8x15",
 			"25x1",
 			"2x10",
 			"3x9",
@@ -455,9 +544,12 @@
 		"description": ""
 	},
 	"27": {
-		"location": "Wien",
+		"primaryField": {
+			"location": "Wien",
+			"field": "27x18",
+			"class": "land-infected-unknown"
+		},
 		"fields": [
-			"27x18",
 			"4x7",
 			"3x8",
 			"2x9",
@@ -476,9 +568,12 @@
 		"description": ""
 	},
 	"28": {
-		"location": "Bern",
+		"primaryField": {
+			"location": "Bern",
+			"field": "27x12",
+			"class": "land-infected-unknown"
+		},
 		"fields": [
-			"27x12",
 			"3x7",
 			"2x8",
 			"1x9",
@@ -496,9 +591,12 @@
 		"description": ""
 	},
 	"29": {
-		"location": "Frankfurt a. M.",
+		"primaryField": {
+			"location": "Frankfurt a. M.",
+			"field": "21x13",
+			"class": "land-infected-unknown"
+		},
 		"fields": [
-			"21x13",
 			"2x7",
 			"1x8",
 			"20x12",
@@ -523,9 +621,12 @@
 		"description": ""
 	},
 	"30": {
-		"location": "Hamburg",
+		"primaryField": {
+			"location": "Hamburg",
+			"field": "14x15",
+			"class": "land-infected-very-high"
+		},
 		"fields": [
-			"14x15",
 			"1x7",
 			"19x12",
 			"20x13",
@@ -542,7 +643,7 @@
 			"27x13"
 		],
 		"timestamp": "Juni 1349",
-		"description": ""
+		"description": "Mortalitätsrate 50%"
 	},
 	"31": {
 		"location": "",

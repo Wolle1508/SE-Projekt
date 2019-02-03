@@ -2013,11 +2013,69 @@
                </table>
           </div>
           <div class="col-xl-3">
-               <textarea id="info"></textarea>
+               <textarea id="info" style="margin-bottom: 15px;"></textarea>
+               <div id="legende">
+                    <div class="row" style="margin-bottom: 15px;">
+                         <div class="col-xl-6">
+                              <div class="water" style="width: 100px; height: 25px;"></div>
+                         </div>
+                         <div class="col-xl-6">
+                              <span>Wasser</span>
+                         </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 15px;">
+                         <div class="col-xl-6">
+                              <div class="land" style="width: 100px; height: 25px;"></div>
+                         </div>
+                         <div class="col-xl-6">
+                              <span>Land</span>
+                         </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 15px;">
+                         <div class="col-xl-6">
+                              <div class="land-infected-rural" style="width: 100px; height: 25px;"></div>
+                         </div>
+                         <div class="col-xl-6">
+                              <span>Betroffenes Umland</span>
+                         </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 15px;">
+                         <div class="col-xl-6">
+                              <div class="land-infected-low" style="width: 100px; height: 25px;"></div>
+                         </div>
+                         <div class="col-xl-6">
+                              <span>Mortalit&auml;tsrate: &lt;5% </span>
+                         </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 15px;">
+                         <div class="col-xl-6">
+                              <div class="land-infected-middel" style="width: 100px; height: 25px;"></div>
+                         </div>
+                         <div class="col-xl-6">
+                              <span>Mortalit&auml;tsrate: &gt;5% </span>
+                         </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 15px;">
+                         <div class="col-xl-6">
+                              <div class="land-infected-high" style="width: 100px; height: 25px;"></div>
+                         </div>
+                         <div class="col-xl-6">
+                              <span>Mortalit&auml;tsrate: &gt;20% </span>
+                         </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 15px;">
+                         <div class="col-xl-6">
+                              <div class="land-infected-very-high" style="width: 100px; height: 25px;"></div>
+                         </div>
+                         <div class="col-xl-6">
+                              <span>Mortalit&auml;tsrate: &gt;50% </span>
+                         </div>
+                    </div>
+               </div>
           </div>
      </div>
      <footer style="padding-top: 10px;">
-          <div class="row">
+          <div class="row" style="text-align: center">
                <div class="col-xl-1">
                     <button class="btn btn-primary" id="back" disabled>Zur&uuml;ck</button>
                </div>
@@ -2027,14 +2085,15 @@
                <div class="col-xl-1"> 
                     <button class="btn btn-primary" id="next" disabled>Weiter</button>
                </div>
-               <div class="col-xl-3">
+               <div class="col-xl-2">
                     <button class="btn btn-danger" id="clear">Stop</button>
                </div>
-               <!-- Richtige Speed Einstellung TBD -->
-               <div class="col-xl-3">
-                    <input type="range" value="1" min="0.5" max="1.5" step="0.1" id="speed" name="Geschwindigkeit" class="form-control-range"></input>
+               <div class="col-cl-3" style="padding-top: 18px; ">
+                    <input type="range" value="1" min="0.5" max="1.5" step="0.1" id="speed" name="Geschwindigkeit" class="form-control-range" ></input>
                </div>
-               <div class="col-xl-3"></div>
+               <div class="col-xl-3" style="padding-top: 5px">
+                    <label for="speed" id="speedLabel" style="font-size: 23px">Geschwindigkeit: 1 Sekunde/Tick</label>
+               </div>
           </div>
      </footer>
 </body>

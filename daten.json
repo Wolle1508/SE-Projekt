@@ -509,10 +509,10 @@
 	"25": {
 		"primaryField": {
 			"location": "Villach",
-			"field": "29x1",
+			"field": "29x16",
 			"class": "land-infected-unknown"
 		},
-		"fields": [ "26x1", "12x11", "5x8", "6x7", "3x10", "6x15", "6x16", "24x12", "25x13" ],
+		"fields": [ "25x2", "26x1", "12x11", "5x8", "6x7", "3x10", "6x15", "6x16", "24x12", "25x13" ],
 		"timestamp": "Januar 1349",
 		"description": ""
 	},

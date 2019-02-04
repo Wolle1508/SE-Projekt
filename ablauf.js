@@ -49,6 +49,10 @@ window.onload = function() {
 
 function ablauf() {
 	if (index != 1) index++;
+	if(index == Object.keys(daten).length){
+		index = 1;
+		clearMap();
+	} 
 	pause = false;
 	(function theLoop(i) {
 		setTimeout(function() {
@@ -56,6 +60,14 @@ function ablauf() {
 			if (index != Object.keys(daten).length && !pause) {
 				index += 1;
 				theLoop(index);
+			} else {
+				var startButton = document.getElementById('start');
+				var backButton = document.getElementById('back');
+				var clearbutton = document.getElementById('clear');
+				startButton.value = "start";
+				startButton.innerHTML = "Start";
+				clearbutton.disabled = false;
+				backButton.disabled = false;
 			}
 		}, speed);
 	})(index);

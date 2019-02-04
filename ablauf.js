@@ -48,11 +48,10 @@ window.onload = function() {
 };
 
 function ablauf() {
-	if (index != 1) index++;
-	if(index == Object.keys(daten).length){
+	if (index == Object.keys(daten).length + 1) {
 		index = 1;
 		clearMap();
-	} 
+	}
 	pause = false;
 	(function theLoop(i) {
 		setTimeout(function() {
@@ -64,8 +63,8 @@ function ablauf() {
 				var startButton = document.getElementById('start');
 				var backButton = document.getElementById('back');
 				var clearbutton = document.getElementById('clear');
-				startButton.value = "start";
-				startButton.innerHTML = "Start";
+				startButton.value = 'start';
+				startButton.innerHTML = 'Start';
 				clearbutton.disabled = false;
 				backButton.disabled = false;
 			}
@@ -103,7 +102,10 @@ function clearMap() {
 
 function stepOn() {
 	index += 1;
-	makeStep(daten[index]);
+	clearMap();
+	for (var i = 1; i < index; i++) {
+		makeStep(daten[i]);
+	}
 }
 
 function stepBack() {

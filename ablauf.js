@@ -1,14 +1,12 @@
-var daten = require('./daten.json');
 var pause = false;
 var index = 1;
 var speed = 1000;
 
-window.onload = function() {
-	document.getElementById('start').addEventListener('click', function() {
+window.onload = function () {
+	document.getElementById('start').addEventListener('click', function () {
 		var startButton = document.getElementById('start');
 		var onButton = document.getElementById('next');
 		var backButton = document.getElementById('back');
-		var clearbutton = document.getElementById('clear');
 		if (startButton.value == 'start') {
 			clearbutton.disabled = true;
 			onButton.disabled = true;
@@ -26,11 +24,11 @@ window.onload = function() {
 			pause = true;
 		}
 	});
-	document.getElementById('clear').addEventListener('click', function() {
+	document.getElementById('clear').addEventListener('click', function () {
 		clearMap();
 		index = 1;
 	});
-	document.getElementById('speed').addEventListener('change', function() {
+	document.getElementById('speed').addEventListener('change', function () {
 		var value = document.getElementById('speed').value;
 		if (value == 1) {
 			document.getElementById('speedLabel').innerHTML = 'Geschwindigkeit: ' + value + ' Sekunde/Tick';
@@ -39,10 +37,10 @@ window.onload = function() {
 		}
 		speed = document.getElementById('speed').value * 1000;
 	});
-	document.getElementById('next').addEventListener('click', function() {
+	document.getElementById('next').addEventListener('click', function () {
 		stepOn();
 	});
-	document.getElementById('back').addEventListener('click', function() {
+	document.getElementById('back').addEventListener('click', function () {
 		stepBack();
 	});
 };
@@ -54,7 +52,7 @@ function ablauf() {
 	}
 	pause = false;
 	(function theLoop(i) {
-		setTimeout(function() {
+		setTimeout(function () {
 			makeStep(daten[i]);
 			if (index != Object.keys(daten).length && !pause) {
 				index += 1;
